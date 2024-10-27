@@ -9,3 +9,5 @@ If I fix a bug, I will create a new tag in patch version.
 add something...
 
 no-release
+
+This is a test message
