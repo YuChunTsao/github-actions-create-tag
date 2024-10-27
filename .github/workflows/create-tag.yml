@@ -16,5 +16,5 @@ jobs:
           npm install
       - name: Create Tag
         env:
-          GITHUB_TOKEN: ${{ secrets.CREATE_TAG }}
+          GITHUB_TOKEN: ${{ secrets.test_create_tag }}
         run: npx semantic-release --branches main
